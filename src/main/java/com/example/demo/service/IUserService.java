@@ -1,5 +1,7 @@
 package com.example.demo.service;
 
+import com.alibaba.fastjson.JSONObject;
+
 public interface IUserService {
-	String getUserName();
+	JSONObject getUserName(String name);
 }

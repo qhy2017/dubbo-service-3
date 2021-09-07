@@ -15,8 +15,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.4.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<version>2.2.4.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -41,6 +41,21 @@
 			<artifactId>dubbo-spring-boot-starter</artifactId>
 			<version>0.2.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.78</version>
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.apache.jmeter</groupId>-->
+<!--			<artifactId>ApacheJMeter_core</artifactId>-->
+<!--			<version>4.0</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.jmeter</groupId>-->
+<!--			<artifactId>ApacheJMeter_java</artifactId>-->
+<!--			<version>4.0</version>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
